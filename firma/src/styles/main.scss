@@ -1,35 +1,9 @@
-@font-face {
-  font-family: LibreFranklinThin;
-  src: url(../fonts/LibreFranklin-Thin.ttf) format("truetype");
-}
+@import "./font.scss";
+@import "./header.scss";
 
-@font-face {
-  font-family: LibreFranklinBlack;
-  src: url(../fonts/LibreFranklin-Black.ttf) format("truetype");
-}
-@font-face {
-  font-family: LibreFranklinRegular;
-  src: url(../fonts/LibreFranklin-Regular.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: LibreFranklinMedium;
-  src: url(../fonts/LibreFranklin-Medium.ttf) format("truetype");
-}
-@font-face {
-  font-family: LibreFranklinItalic;
-  src: url(../fonts/LibreFranklin-Italic.ttf) format("truetype");
-}
-@font-face {
-  font-family: LibreFranklinExtraBold;
-  src: url(../fonts/LibreFranklin-ExtraBold.ttf) format("truetype");
-}
-@font-face {
-  font-family: LibreFranklinBold;
-  src: url(../fonts/LibreFranklin-Bold.ttf) format("truetype");
-}
-
-header {
-  font-family: LibreFranklinExtraBold;
-  color: red($color: red);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
 }
