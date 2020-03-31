@@ -1,5 +1,5 @@
 # Firma
 
-Use React / Redux
-Use Sass
-Use animation interaction
+- Use React / Redux
+- Use Sass
+- Use animation interaction
