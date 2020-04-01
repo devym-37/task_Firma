@@ -1,11 +1,13 @@
 import React from "react";
 import "styles/main.scss";
 import Header from "./component/Header";
+import Footer from "./component/Footer";
 
 function App() {
   return (
     <>
       <Header />
+      <Footer />
     </>
   );
 }
