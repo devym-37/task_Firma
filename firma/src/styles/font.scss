@@ -1,40 +1,66 @@
+$hairline-weight: 100;
+$thin-weight: 200;
+$light-weight: 300;
+$normal-weight: 400;
+$medium-weight: 500;
+$semibold-weight: 600;
+$bold-weight: 700;
+$xbold-weight: 800;
+$black-weight: 900;
+
 @font-face {
-  font-family: LibreFranklinThin;
+  font-family: Libre Franklin;
   src: url(../fonts/LibreFranklin-Thin.ttf) format("truetype");
+  font-style: normal;
+  font-weight: $thin-weight;
 }
 
 @font-face {
-  font-family: LibreFranklinBlack;
+  font-family: Libre Franklin;
   src: url(../fonts/LibreFranklin-Black.ttf) format("truetype");
 }
 @font-face {
-  font-family: LibreFranklinRegular;
+  font-family: Libre Franklin;
   src: url(../fonts/LibreFranklin-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: $normal-weight;
 }
 
 @font-face {
-  font-family: LibreFranklinMedium;
+  font-family: Libre Franklin;
   src: url(../fonts/LibreFranklin-Medium.ttf) format("truetype");
+  font-style: normal;
+  font-weight: $medium-weight;
 }
 @font-face {
-  font-family: LibreFranklinItalic;
+  font-family: Libre Franklin;
   src: url(../fonts/LibreFranklin-Italic.ttf) format("truetype");
+  font-style: italic;
+  font-weight: $normal-weight;
 }
 @font-face {
-  font-family: LibreFranklinExtraBold;
+  font-family: Libre Franklin;
   src: url(../fonts/LibreFranklin-ExtraBold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: $xbold-weight;
 }
 @font-face {
-  font-family: LibreFranklinBold;
+  font-family: Libre Franklin;
   src: url(../fonts/LibreFranklin-Bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: $bold-weight;
 }
 
 @font-face {
-  font-family: LibreFranklinSemiBold;
+  font-family: Libre Franklin;
   src: url(../fonts/LibreFranklin-SemiBold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: $semibold-weight;
 }
 
 @font-face {
-  font-family: LibreFranklinLight;
+  font-family: Libre Franklin;
   src: url(../fonts/LibreFranklin-Light.ttf) format("truetype");
+  font-style: normal;
+  font-weight: $light-weight;
 }

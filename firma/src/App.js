@@ -1,12 +1,15 @@
 import React from "react";
 import "styles/main.scss";
-import Header from "./component/Header";
+
 import Footer from "./component/Footer";
+import LandingPage from "./pages/landingPage";
+import CommercePage from "./pages/commercePage";
 
 function App() {
   return (
     <>
-      <Header />
+      <LandingPage />
+      <CommercePage />
       <Footer />
     </>
   );
