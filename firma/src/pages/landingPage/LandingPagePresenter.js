@@ -4,7 +4,7 @@ import Nav from "component/Nav";
 const LandingPagePresenter = () => (
   <>
     <div id="Header_01">
-      <svg class="Background_e">
+      <svg className="Background_e">
         <rect
           fill="rgba(241,241,241,1)"
           id="Background_e"
@@ -16,9 +16,9 @@ const LandingPagePresenter = () => (
           height="900"
         ></rect>
       </svg>
-      <div id="Slider_Arrows" class="Slider_Arrows"></div>
+      <div id="Slider_Arrows" className="Slider_Arrows"></div>
       <div id="Next_Product">
-        <svg class="Background_fa">
+        <svg className="Background_fa">
           <rect
             fill="rgba(255,169,0,1)"
             id="Background_fa"
@@ -31,8 +31,8 @@ const LandingPagePresenter = () => (
           ></rect>
         </svg>
         {/* <img id="image_e" src="image_e.png" srcset="image_e.png 1x, image_e@2x.png 2x"/> */}
-        <div id="icons_plus" class="icons_plus">
-          <svg class="plus" viewBox="0 0 22 22">
+        <div id="icons_plus" className="icons_plus">
+          <svg className="plus" viewBox="0 0 22 22">
             <path
               fill="rgba(103,103,103,1)"
               id="plus"
@@ -53,7 +53,7 @@ const LandingPagePresenter = () => (
         {/* <img id="Image_fb" src="Image_fb.png" srcset="Image_fb.png 1x, Image_fb@2x.png 2x" />
 			<img id="Image_fc" src="Image_fc.png" srcset="Image_fc.png 1x, Image_fc@2x.png 2x"/>
 			<img id="image_fd" src="image_fd.png" srcset="image_fd.png 1x, image_fd@2x.png 2x"/> */}
-        <svg class="Background_fe">
+        <svg className="Background_fe">
           <ellipse
             fill="rgba(77,102,255,1)"
             id="Background_fe"
@@ -67,10 +67,10 @@ const LandingPagePresenter = () => (
       </div>
       <div
         id="Buttons_Large_Color_1_Solid_fg"
-        class="Buttons_Large_Color_1_Solid"
+        className="Buttons_Large_Color_1_Solid"
       >
         <div id="Buttons_Large_Color_1_Solid_fh">
-          <svg class="Background_fi">
+          <svg className="Background_fi">
             <rect
               fill="rgba(77,102,255,1)"
               id="Background_fi"
