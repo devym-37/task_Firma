@@ -5,6 +5,7 @@ import Footer from "component/Footer";
 import LandingPage from "pages/landingPage";
 import TestimonialPage from "pages/testimonialPage";
 import ContentPage from "pages/contentPage";
+import BlogPage from "pages/blogPage";
 import CommercePage from "pages/commercePage";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <LandingPage />
       <TestimonialPage />
       <ContentPage />
+      <BlogPage />
       <CommercePage />
       <Footer />
     </>
