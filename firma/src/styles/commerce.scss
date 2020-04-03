@@ -5,30 +5,52 @@
   left: 0px;
   top: 6683px;
   overflow: visible;
-  #Image_hh {
+
+  .Background_hm {
+    position: absolute;
+    overflow: visible;
+    width: 1440px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+  }
+
+  #Image_hn {
     position: absolute;
     width: 540px;
     height: 640px;
     left: 735px;
     top: 80px;
     overflow: visible;
+
+    .Mask_hr {
+      position: absolute;
+      overflow: visible;
+      width: 540px;
+      height: 640px;
+      left: 0px;
+      top: 0px;
+    }
+
+    #Image_hp {
+      position: absolute;
+      width: 540px;
+      height: 640px;
+      left: 0px;
+      top: 0px;
+      overflow: visible;
+    }
   }
-  #Image_hj {
-    position: absolute;
-    width: 540px;
-    height: 640px;
-    left: 0px;
-    top: 0px;
-    overflow: visible;
-  }
-  #Next_Product {
+
+  #Next_Product_hs {
     position: absolute;
     width: 300px;
     height: 80px;
     left: 165px;
     top: 640px;
     overflow: visible;
-    #Image_hn {
+
+    #Image_ht {
       position: absolute;
       width: 80px;
       height: 80px;
@@ -36,14 +58,7 @@
       top: 0px;
       overflow: visible;
     }
-    #Image_hp {
-      position: absolute;
-      width: 80px;
-      height: 80px;
-      left: 0px;
-      top: 0px;
-      overflow: visible;
-    }
+
     #_1595 {
       position: absolute;
       left: 100px;
@@ -60,6 +75,7 @@
       font-size: 16px;
       color: rgba(103, 103, 103, 1);
     }
+
     #Easy_Squeeze_Sofa_Be {
       position: absolute;
       left: 100px;
@@ -77,14 +93,16 @@
       color: rgba(21, 21, 23, 1);
     }
   }
-  #Buttons_Large_Color_1_Solid_hu {
+
+  #Buttons_Large_Color_1_Solid_h {
     position: absolute;
     width: 180px;
     height: 60px;
     left: 165px;
     top: 454px;
     overflow: visible;
-    #Buttons_Large_Color_1_Solid_hv {
+
+    #Buttons_Large_Color_1_Solid_ia {
       position: absolute;
       width: 180px;
       height: 60px;
@@ -92,19 +110,101 @@
       top: 0px;
       overflow: visible;
     }
-    #Get_Started_hx {
+  }
+
+  #_1299 {
+    position: absolute;
+    left: 535px;
+    top: 464px;
+    overflow: visible;
+    width: 76px;
+    white-space: nowrap;
+    line-height: 32px;
+    margin-top: -4px;
+    text-align: right;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(77, 102, 255, 1);
+  }
+
+  #Text_h {
+    position: absolute;
+    width: 445px;
+    height: 204px;
+    left: 165px;
+    top: 210px;
+    overflow: visible;
+
+    #This_is_a_big_one_an_h {
       position: absolute;
-      left: 44.5px;
-      top: 18px;
+      left: 0px;
+      top: 144px;
       overflow: visible;
-      width: 93px;
-      white-space: nowrap;
-      text-align: center;
+      width: 446px;
+      height: 60px;
+      line-height: 30px;
+      margin-top: -6px;
+      text-align: left;
+      font-family: Libre Franklin;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      color: rgba(103, 103, 103, 1);
+    }
+
+    #Furniture_Is_Art_Wit {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      overflow: visible;
+      width: 446px;
+      height: 124px;
+      line-height: 62px;
+      margin-top: -7px;
+      text-align: left;
       font-family: Libre Franklin;
       font-style: normal;
       font-weight: bold;
-      font-size: 16px;
-      color: rgba(255, 255, 255, 1);
+      font-size: 48px;
+      color: rgba(21, 21, 23, 1);
+    }
+  }
+
+  #Review {
+    position: absolute;
+    width: 55px;
+    height: 30px;
+    left: 325px;
+    top: 160px;
+    overflow: visible;
+
+    #Avatars_Small {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      left: 0px;
+      top: 0px;
+      overflow: visible;
+    }
+
+    #More {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      left: 25px;
+      top: 0px;
+      overflow: visible;
+    }
+
+    #Stars {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      left: -2315px;
+      top: -6843px;
+      overflow: visible;
     }
   }
 }

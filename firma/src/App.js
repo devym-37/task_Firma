@@ -8,6 +8,7 @@ import ContentPage from "./pages/contentPage";
 import BlogPage from "./pages/blogPage";
 import TeamPage from "./pages/teamPage";
 import SecondBlogPage from "./pages/secondBlogPage";
+import PortfolioPage from "./pages/portfolioPage";
 import CommercePage from "./pages/commercePage";
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
       <BlogPage />
       <TeamPage />
       <SecondBlogPage />
-
+      <PortfolioPage />
       <CommercePage />
       <Footer />
     </>

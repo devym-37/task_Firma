@@ -44,6 +44,7 @@ const TeamPresenter = () => (
               width="100%"
               height="100%"
             >
+              <img alt="avatar" src={require("../../images/team/Edward.svg")} />
               {/* <image
                   x="0"
                   y="0"
@@ -92,6 +93,7 @@ const TeamPresenter = () => (
               width="100%"
               height="100%"
             >
+              <img alt="avatar" src={require("../../images/team/Soares.svg")} />
               {/* <image
                   x="0"
                   y="0"
@@ -140,6 +142,10 @@ const TeamPresenter = () => (
               width="100%"
               height="100%"
             >
+              <img
+                alt="avartar"
+                src={require("../../images/team/Justine.svg")}
+              />
               {/* <image
                   x="0"
                   y="0"
@@ -188,6 +194,10 @@ const TeamPresenter = () => (
               width="100%"
               height="100%"
             >
+              <img
+                alt="avartar"
+                src={require("../../images/team/Georges.svg")}
+              />
               {/* <image
                   x="0"
                   y="0"
@@ -236,6 +246,10 @@ const TeamPresenter = () => (
               width="100%"
               height="100%"
             >
+              <img
+                alt="avartar"
+                src={require("../../images/team/Gayoso.svg")}
+              />
               {/* <image
                   x="0"
                   y="0"

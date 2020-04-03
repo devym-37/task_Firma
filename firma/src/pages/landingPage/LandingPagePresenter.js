@@ -30,7 +30,11 @@ const LandingPagePresenter = () => (
             height="80"
           ></rect>
         </svg>
-        {/* <img id="image_e" src="image_e.png" srcset="image_e.png 1x, image_e@2x.png 2x"/> */}
+        <img
+          id="image_e"
+          alt="add product"
+          src={require("../../images/landing/addProduct.svg")}
+        />
         <div id="icons_plus" className="icons_plus">
           <svg className="plus" viewBox="0 0 22 22">
             <path
@@ -50,9 +54,21 @@ const LandingPagePresenter = () => (
         </div>
       </div>
       <div id="Product_Image">
-        {/* <img id="Image_fb" src="Image_fb.png" srcset="Image_fb.png 1x, Image_fb@2x.png 2x" />
-			<img id="Image_fc" src="Image_fc.png" srcset="Image_fc.png 1x, Image_fc@2x.png 2x"/>
-			<img id="image_fd" src="image_fd.png" srcset="image_fd.png 1x, image_fd@2x.png 2x"/> */}
+        <img
+          alt="product"
+          id="Image_fb"
+          src={require("../../images/landing/sideProduct1.svg")}
+        />
+        <img
+          alt="product"
+          id="Image_fc"
+          src={require("../../images/landing/sideProduct2.svg")}
+        />
+        <img
+          alt="product"
+          id="image_fd"
+          src={require("../../images/landing/sideProduct3.svg")}
+        />
         <svg className="Background_fe">
           <ellipse
             fill="rgba(77,102,255,1)"
@@ -63,7 +79,11 @@ const LandingPagePresenter = () => (
             cy="270"
           ></ellipse>
         </svg>
-        {/* <img id="Image_ff" src="Image_ff.png" srcset="Image_ff.png 1x, Image_ff@2x.png 2x"/> */}
+        <img
+          alt="main product"
+          id="Image_ff"
+          src={require("../../images/landing/mainProduct.svg")}
+        />
       </div>
       <div
         id="Buttons_Large_Color_1_Solid_fg"
