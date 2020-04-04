@@ -49,6 +49,11 @@ const SecondBlogPresenter = () => (
               width="100%"
               height="100%"
             >
+              <img
+                alt="secondBlog"
+                id="secondBlog"
+                src={require("../../images/secondBlog/Image.svg")}
+              />
               {/* <image x="0" y="0" width="100%" height="100%" href="Image_jh_pattern.png" xlink:href="Image_jh_pattern.png"></image> */}
             </pattern>
           </div>
@@ -61,11 +66,11 @@ const SecondBlogPresenter = () => (
             <span>Beatriz Brito</span>
           </div>
           <div id="Avatars_Medium" className="Avatars_Medium">
-            {/* <img
+            <img
+              alt="secondBlog"
               id="Image_bj"
-              src="Image_bj.png"
-              srcset="Image_bj.png 1x, Image_bj@2x.png 2x"
-            /> */}
+              src={require("../../images/secondBlog/Image-3.svg")}
+            />
           </div>
         </div>
         <div id="Text_bk">
@@ -122,11 +127,11 @@ const SecondBlogPresenter = () => (
             <span>Bárbara Cotilla</span>
           </div>
           <div id="Avatars_Medium_by" className="Avatars_Medium">
-            {/* <img
+            <img
+              alt="secondBlog"
               id="Image_bz"
-              src="Image_bz.png"
-              srcset="Image_bz.png 1x, Image_bz@2x.png 2x"
-            /> */}
+              src={require("../../images/secondBlog/Image-2.svg")}
+            />
           </div>
         </div>
         <div id="Text_b">

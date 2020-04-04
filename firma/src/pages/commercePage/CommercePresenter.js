@@ -38,14 +38,10 @@ const CommercePresenter = () => (
             width="100%"
             height="100%"
           >
-            {/* <image
-                x="0"
-                y="0"
-                width="100%"
-                height="100%"
-                href="Image_ju_pattern.png"
-                xlink:href="Image_ju_pattern.png"
-              ></image> */}
+            <img
+              alt="product"
+              src={require("../../images/commerce/product.svg")}
+            />
           </pattern>
         </div>
       </div>
@@ -77,14 +73,10 @@ const CommercePresenter = () => (
               width="100%"
               height="100%"
             >
-              {/* <image
-                  x="0"
-                  y="0"
-                  width="100%"
-                  height="100%"
-                  href="Image_jv_pattern.png"
-                  xlink:href="Image_jv_pattern.png"
-                ></image> */}
+              <img
+                alt="nextProduct"
+                src={require("../../images/commerce/nextProduct.svg")}
+              />
             </pattern>
           </div>
         </div>
@@ -133,7 +125,11 @@ const CommercePresenter = () => (
       </div>
       <div id="Review">
         <div id="Avatars_Small" class="Avatars_Small">
-          {/* <img id="Image_ia" src="Image_ia.png" srcset="Image_ia.png 1x, Image_ia@2x.png 2x" /> */}
+          <img
+            alt="avartar"
+            id="Image_ia"
+            src={require("../../images/commerce/Avatars-Small.svg")}
+          />
         </div>
         <div id="More">
           <svg class="Background_ic">
