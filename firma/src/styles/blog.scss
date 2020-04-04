@@ -1,380 +1,377 @@
 #Blog_01 {
+  position: absolute;
+  width: 1440px;
+  height: 1087px;
+  left: 0px;
+  top: 2606px;
+  overflow: visible;
+
+  .Background_f {
     position: absolute;
+    overflow: visible;
     width: 1440px;
     height: 1087px;
     left: 0px;
-    top: 2606px;
+    top: 0px;
+  }
+
+  #Post_3_f {
+    position: absolute;
+    width: 350px;
+    height: 563px;
+    left: 925px;
+    top: 444px;
     overflow: visible;
 
-    .Background_f {
+    #Image_f {
+      position: absolute;
+      width: 350px;
+      height: 420px;
+      left: 0px;
+      top: 0px;
+      overflow: visible;
+
+      .Mask_ga {
         position: absolute;
         overflow: visible;
-        width: 1440px;
-        height: 1087px;
+        width: 350px;
+        height: 420px;
         left: 0px;
         top: 0px;
+      }
     }
 
-    #Post_3_f {
+    #Image_ga {
+      position: absolute;
+      width: 350px;
+      height: 420px;
+      left: 0px;
+      top: 0px;
+      overflow: visible;
+    }
+
+    #Text_f {
+      position: absolute;
+      width: 350px;
+      height: 113px;
+      left: 0px;
+      top: 450px;
+      overflow: visible;
+
+      #Having_worked_across_f {
+        position: absolute;
+        left: 0px;
+        top: 57px;
+        overflow: visible;
+        width: 351px;
+        height: 56px;
+        line-height: 28px;
+        margin-top: -6px;
+        text-align: left;
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: rgba(103, 103, 103, 1);
+      }
+
+      #Here_s_What_Develope_ga {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+        width: 351px;
+        height: 52px;
+        line-height: 26px;
+        margin-top: -4px;
+        text-align: left;
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        color: rgba(21, 21, 23, 1);
+      }
+    }
+
+    #Arrow {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      left: 290px;
+      top: 360px;
+      overflow: visible;
+
+      .Background_gc {
+        position: absolute;
+        overflow: visible;
+        width: 40px;
+        height: 40px;
+        left: 0px;
+        top: 0px;
+      }
+
+      #icons_long_arrow_right_gy {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        left: -2445px;
+        top: -3410px;
+        overflow: visible;
+      }
+    }
+  }
+
+  #Post_2_ge {
+    position: absolute;
+    width: 350px;
+    height: 563px;
+    left: 545px;
+    top: 444px;
+    overflow: visible;
+
+    #Image_gf {
+      position: absolute;
+      width: 350px;
+      height: 420px;
+      left: 0px;
+      top: 0px;
+      overflow: visible;
+
+      .Mask_gj {
+        position: absolute;
+        overflow: visible;
+        width: 350px;
+        height: 420px;
+        left: 0px;
+        top: 0px;
+      }
+
+      #Image_gh {
         position: absolute;
         width: 350px;
-        height: 563px;
-        left: 925px;
-        top: 444px;
+        height: 420px;
+        left: 0px;
+        top: 0px;
         overflow: visible;
-
-        #Image_f {
-            position: absolute;
-            width: 350px;
-            height: 420px;
-            left: 0px;
-            top: 0px;
-            overflow: visible;
-
-            .Mask_ga {
-                position: absolute;
-                overflow: visible;
-                width: 350px;
-                height: 420px;
-                left: 0px;
-                top: 0px;
-            }
-        }
-
-        #Image_ga {
-            position: absolute;
-            width: 350px;
-            height: 420px;
-            left: 0px;
-            top: 0px;
-            overflow: visible;
-        }
-
-        #Text_f {
-            position: absolute;
-            width: 350px;
-            height: 113px;
-            left: 0px;
-            top: 450px;
-            overflow: visible;
-
-            #Having_worked_across_f {
-                position: absolute;
-                left: 0px;
-                top: 57px;
-                overflow: visible;
-                width: 351px;
-                height: 56px;
-                line-height: 28px;
-                margin-top: -6px;
-                text-align: left;
-                font-family: Libre Franklin;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 16px;
-                color: rgba(103, 103, 103, 1);
-            }
-
-            #Here_s_What_Develope_ga {
-                position: absolute;
-                left: 0px;
-                top: 0px;
-                overflow: visible;
-                width: 351px;
-                height: 52px;
-                line-height: 26px;
-                margin-top: -4px;
-                text-align: left;
-                font-family: Libre Franklin;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 18px;
-                color: rgba(21, 21, 23, 1);
-            }
-        }
-
-        #Arrow {
-            position: absolute;
-            width: 40px;
-            height: 40px;
-            left: 290px;
-            top: 360px;
-            overflow: visible;
-
-            .Background_gc {
-                position: absolute;
-                overflow: visible;
-                width: 40px;
-                height: 40px;
-                left: 0px;
-                top: 0px;
-            }
-
-            #icons_long_arrow_right_gy {
-                position: absolute;
-                width: 1px;
-                height: 1px;
-                left: -2445px;
-                top: -3410px;
-                overflow: visible;
-            }
-        }
+      }
     }
 
-    #Post_2_ge {
+    #Arrow_gk {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      left: 290px;
+      top: 360px;
+      overflow: visible;
+
+      .Background_gl {
+        position: absolute;
+        overflow: visible;
+        width: 40px;
+        height: 40px;
+        left: 0px;
+        top: 0px;
+      }
+
+      #icons_long_arrow_right_gy {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        left: -2445px;
+        top: -3410px;
+        overflow: visible;
+      }
+    }
+
+    #Text_gn {
+      position: absolute;
+      width: 350px;
+      height: 113px;
+      left: 0px;
+      top: 450px;
+      overflow: visible;
+
+      #Having_worked_across_go {
+        position: absolute;
+        left: 0px;
+        top: 57px;
+        overflow: visible;
+        width: 351px;
+        height: 56px;
+        line-height: 28px;
+        margin-top: -6px;
+        text-align: left;
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: rgba(103, 103, 103, 1);
+      }
+
+      #We_Need_To_Talk_Abou_gp {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+        width: 351px;
+        height: 52px;
+        line-height: 26px;
+        margin-top: -4px;
+        text-align: left;
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        color: rgba(21, 21, 23, 1);
+      }
+    }
+  }
+
+  #Post_1_gq {
+    position: absolute;
+    width: 350px;
+    height: 563px;
+    left: 165px;
+    top: 444px;
+    overflow: visible;
+
+    #Image_gr {
+      position: absolute;
+      width: 350px;
+      height: 420px;
+      left: 0px;
+      top: 0px;
+      overflow: visible;
+      .Mask_gv {
+        filter: drop-shadow(0px 20px 50px rgba(103, 103, 103, 0.051));
+        position: absolute;
+        overflow: visible;
+        width: 500px;
+        height: 570px;
+        left: 0px;
+        top: 0px;
+      }
+      #Image_gt {
         position: absolute;
         width: 350px;
-        height: 563px;
-        left: 545px;
-        top: 444px;
+        height: 420px;
+        left: 0px;
+        top: 0px;
         overflow: visible;
-
-        #Image_gf {
-            position: absolute;
-            width: 350px;
-            height: 420px;
-            left: 0px;
-            top: 0px;
-            overflow: visible;
-
-            .Mask_gj {
-                position: absolute;
-                overflow: visible;
-                width: 350px;
-                height: 420px;
-                left: 0px;
-                top: 0px;
-            }
-
-            #Image_gh {
-                position: absolute;
-                width: 350px;
-                height: 420px;
-                left: 0px;
-                top: 0px;
-                overflow: visible;
-            }
-        }
-
-        #Arrow_gk {
-            position: absolute;
-            width: 40px;
-            height: 40px;
-            left: 290px;
-            top: 360px;
-            overflow: visible;
-
-            .Background_gl {
-                position: absolute;
-                overflow: visible;
-                width: 40px;
-                height: 40px;
-                left: 0px;
-                top: 0px;
-            }
-
-            #icons_long_arrow_right_gy {
-                position: absolute;
-                width: 1px;
-                height: 1px;
-                left: -2445px;
-                top: -3410px;
-                overflow: visible;
-            }
-        }
-
-        #Text_gn {
-            position: absolute;
-            width: 350px;
-            height: 113px;
-            left: 0px;
-            top: 450px;
-            overflow: visible;
-
-            #Having_worked_across_go {
-                position: absolute;
-                left: 0px;
-                top: 57px;
-                overflow: visible;
-                width: 351px;
-                height: 56px;
-                line-height: 28px;
-                margin-top: -6px;
-                text-align: left;
-                font-family: Libre Franklin;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 16px;
-                color: rgba(103, 103, 103, 1);
-            }
-
-            #We_Need_To_Talk_Abou_gp {
-                position: absolute;
-                left: 0px;
-                top: 0px;
-                overflow: visible;
-                width: 351px;
-                height: 52px;
-                line-height: 26px;
-                margin-top: -4px;
-                text-align: left;
-                font-family: Libre Franklin;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 18px;
-                color: rgba(21, 21, 23, 1);
-            }
-        }
+      }
     }
 
-    #Post_1_gq {
+    #Arrow_gw {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      left: 290px;
+      top: 360px;
+      overflow: visible;
+
+      .Background_gx {
         position: absolute;
-        width: 350px;
-        height: 563px;
-        left: 165px;
-        top: 444px;
         overflow: visible;
+        width: 40px;
+        height: 40px;
+        left: 0px;
+        top: 0px;
+      }
 
-        #Image_gr {
-            position: absolute;
-            width: 350px;
-            height: 420px;
-            left: 0px;
-            top: 0px;
-            overflow: visible;
-        }
-
-        .Mask_gv {
-            filter: drop-shadow(0px 20px 50px rgba(103, 103, 103, 0.051));
-            position: absolute;
-            overflow: visible;
-            width: 500px;
-            height: 570px;
-            left: 0px;
-            top: 0px;
-        }
-
-        #Image_gt {
-            position: absolute;
-            width: 350px;
-            height: 420px;
-            left: 0px;
-            top: 0px;
-            overflow: visible;
-        }
-
-        #Arrow_gw {
-            position: absolute;
-            width: 40px;
-            height: 40px;
-            left: 290px;
-            top: 360px;
-            overflow: visible;
-
-            .Background_gx {
-                position: absolute;
-                overflow: visible;
-                width: 40px;
-                height: 40px;
-                left: 0px;
-                top: 0px;
-            }
-
-            #icons_long_arrow_right_gy {
-                position: absolute;
-                width: 1px;
-                height: 1px;
-                left: -2445px;
-                top: -3410px;
-                overflow: visible;
-            }
-        }
-
-        #Text_gz {
-            position: absolute;
-            width: 350px;
-            height: 113px;
-            left: 0px;
-            top: 450px;
-            overflow: visible;
-
-            #Having_worked_across_g {
-                position: absolute;
-                left: 0px;
-                top: 57px;
-                overflow: visible;
-                width: 351px;
-                height: 56px;
-                line-height: 28px;
-                margin-top: -6px;
-                text-align: left;
-                font-family: Libre Franklin;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 16px;
-                color: rgba(103, 103, 103, 1);
-            }
-
-            #Why_Design_Systems_A_g {
-                position: absolute;
-                left: 0px;
-                top: 0px;
-                overflow: visible;
-                width: 351px;
-                height: 52px;
-                line-height: 26px;
-                margin-top: -4px;
-                text-align: left;
-                font-family: Libre Franklin;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 18px;
-                color: rgba(21, 21, 23, 1);
-            }
-        }
-    }
-
-
-    #Text_g {
+      #icons_long_arrow_right_gy {
         position: absolute;
-        width: 445px;
-        height: 204px;
-        left: 498px;
-        top: 160px;
+        width: 1px;
+        height: 1px;
+        left: -2445px;
+        top: -3410px;
         overflow: visible;
-
-        #You_Got_A_Friend_In {
-            position: absolute;
-            left: 0px;
-            top: 0px;
-            overflow: visible;
-            width: 446px;
-            height: 124px;
-            line-height: 62px;
-            margin-top: -7px;
-            text-align: center;
-            font-family: Libre Franklin;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 48px;
-            color: rgba(21, 21, 23, 1);
-        }
-
-        #Only_those_who_risk {
-            position: absolute;
-            left: 0px;
-            top: 144px;
-            overflow: visible;
-            width: 446px;
-            height: 60px;
-            line-height: 30px;
-            margin-top: -6px;
-            text-align: center;
-            font-family: Libre Franklin;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 18px;
-            color: rgba(103, 103, 103, 1);
-        }
+      }
     }
+
+    #Text_gz {
+      position: absolute;
+      width: 350px;
+      height: 113px;
+      left: 0px;
+      top: 450px;
+      overflow: visible;
+
+      #Having_worked_across_g {
+        position: absolute;
+        left: 0px;
+        top: 57px;
+        overflow: visible;
+        width: 351px;
+        height: 56px;
+        line-height: 28px;
+        margin-top: -6px;
+        text-align: left;
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: rgba(103, 103, 103, 1);
+      }
+
+      #Why_Design_Systems_A_g {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+        width: 351px;
+        height: 52px;
+        line-height: 26px;
+        margin-top: -4px;
+        text-align: left;
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        color: rgba(21, 21, 23, 1);
+      }
+    }
+  }
+
+  #Text_g {
+    position: absolute;
+    width: 445px;
+    height: 204px;
+    left: 498px;
+    top: 160px;
+    overflow: visible;
+
+    #You_Got_A_Friend_In {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      overflow: visible;
+      width: 446px;
+      height: 124px;
+      line-height: 62px;
+      margin-top: -7px;
+      text-align: center;
+      font-family: Libre Franklin;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      color: rgba(21, 21, 23, 1);
+    }
+
+    #Only_those_who_risk {
+      position: absolute;
+      left: 0px;
+      top: 144px;
+      overflow: visible;
+      width: 446px;
+      height: 60px;
+      line-height: 30px;
+      margin-top: -6px;
+      text-align: center;
+      font-family: Libre Franklin;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      color: rgba(103, 103, 103, 1);
+    }
+  }
 }

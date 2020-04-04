@@ -2,26 +2,26 @@ import React from "react";
 import "styles/main.scss";
 
 import Footer from "./component/Footer";
-import LandingPage from "./pages/landingPage";
-import TestimonialPage from "./pages/testimonialPage";
-import ContentPage from "./pages/contentPage";
-import BlogPage from "./pages/blogPage";
-import TeamPage from "./pages/teamPage";
-import SecondBlogPage from "./pages/secondBlogPage";
-import PortfolioPage from "./pages/portfolioPage";
-import CommercePage from "./pages/commercePage";
+import LandingSection from "./sections/landingSection";
+import TestimonialSection from "./sections/testimonialSection";
+import ContentSection from "./sections/contentSection";
+import BlogSection from "./sections/blogSection";
+import TeamSection from "./sections/teamSection";
+import SecondBlogSection from "./sections/secondBlogSection";
+import PortfolioSection from "./sections/portfolioSection";
+import CommerceSection from "./sections/commerceSection";
 
 function App() {
   return (
     <>
-      <LandingPage />
-      <TestimonialPage />
-      <ContentPage />
-      <BlogPage />
-      <TeamPage />
-      <SecondBlogPage />
-      <PortfolioPage />
-      <CommercePage />
+      <LandingSection />
+      <TestimonialSection />
+      <ContentSection />
+      <BlogSection />
+      <TeamSection />
+      <SecondBlogSection />
+      <PortfolioSection />
+      <CommerceSection />
       <Footer />
     </>
   );
