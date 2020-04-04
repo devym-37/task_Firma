@@ -26,6 +26,16 @@ const PortfolioPresenter = () => (
             cy="240"
           ></ellipse>
         </svg>
+        <img
+          alt="portfolio"
+          id="Image_2"
+          src={require("../../images/portfolio/portfolio2.svg")}
+        />
+        <img
+          alt="portfolio"
+          id="Image_1"
+          src={require("../../images/portfolio/portfolio1.svg")}
+        />
         {/* <img id="Image_2" src="Image_2.png" srcset="Image_2.png 1x, Image_2@2x.png 2x"/>
 			<img id="Image_1" src="Image_1.png" srcset="Image_1.png 1x, Image_1@2x.png 2x"/> */}
       </div>

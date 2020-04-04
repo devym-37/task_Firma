@@ -1,164 +1,178 @@
 #Portfolio_01 {
+  position: absolute;
+  width: 1440px;
+  height: 908px;
+  left: 0px;
+  top: 5775px;
+  overflow: visible;
+
+  .Background_g {
     position: absolute;
+    overflow: visible;
     width: 1440px;
     height: 908px;
     left: 0px;
-    top: 5775px;
+    top: 0px;
+  }
+
+  #Mockup {
+    position: absolute;
+    width: 561.555px;
+    height: 559.609px;
+    left: 154.718px;
+    top: 228.436px;
     overflow: visible;
 
-    .Background_g {
+    .Background_ha {
+      position: absolute;
+      overflow: visible;
+      width: 480px;
+      height: 480px;
+      left: 40.282px;
+      top: 39.564px;
+    }
+    #Image_2 {
+      filter: drop-shadow(-50px 50px 100px rgba(103, 103, 103, 0.102));
+      position: absolute;
+      left: -200px;
+      top: -100px;
+      overflow: visible;
+    }
+    #Image_1 {
+      filter: drop-shadow(50px 50px 100px rgba(103, 103, 103, 0.102));
+      position: absolute;
+      left: 100px;
+      top: 50px;
+      overflow: visible;
+    }
+  }
+
+  #Buttons_Large_Color_1_Solid_hb {
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    left: 830px;
+    top: 584px;
+    overflow: visible;
+
+    #Buttons_Large_Color_1_Solid_hc {
+      position: absolute;
+      width: 180px;
+      height: 60px;
+      left: 0px;
+      top: 0px;
+      overflow: visible;
+
+      .Background_hd {
         position: absolute;
         overflow: visible;
-        width: 1440px;
-        height: 908px;
-        left: 0px;
-        top: 0px;
-    }
-
-    #Mockup {
-        position: absolute;
-        width: 561.555px;
-        height: 559.609px;
-        left: 154.718px;
-        top: 228.436px;
-        overflow: visible;
-
-        .Background_ha {
-            position: absolute;
-            overflow: visible;
-            width: 480px;
-            height: 480px;
-            left: 40.282px;
-            top: 39.564px;
-        }
-    }
-
-    #Buttons_Large_Color_1_Solid_hb {
-        position: absolute;
         width: 180px;
         height: 60px;
-        left: 830px;
-        top: 584px;
-        overflow: visible;
+        left: 0px;
+        top: 0px;
+      }
 
-        #Buttons_Large_Color_1_Solid_hc {
-            position: absolute;
-            width: 180px;
-            height: 60px;
-            left: 0px;
-            top: 0px;
-            overflow: visible;
-
-            .Background_hd {
-                position: absolute;
-                overflow: visible;
-                width: 180px;
-                height: 60px;
-                left: 0px;
-                top: 0px;
-            }
-
-            #Get_Started_he {
-                position: absolute;
-                left: 25.5px;
-                top: 18px;
-                overflow: visible;
-                width: 131px;
-                white-space: nowrap;
-                text-align: center;
-                font-family: Libre Franklin;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 16px;
-                color: rgba(255, 255, 255, 1);
-            }
-        }
-    }
-
-    #Text_2_hf {
+      #Get_Started_he {
         position: absolute;
-        width: 445px;
-        height: 172px;
-        left: 830px;
-        top: 372px;
+        left: 25.5px;
+        top: 18px;
         overflow: visible;
+        width: 131px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 1);
+      }
+    }
+  }
 
-        #Only_those_who_risk_hg {
-            position: absolute;
-            left: 0px;
-            top: 112px;
-            overflow: visible;
-            width: 446px;
-            height: 60px;
-            line-height: 30px;
-            margin-top: -6px;
-            text-align: left;
-            font-family: Libre Franklin;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 18px;
-            color: rgba(103, 103, 103, 1);
-        }
+  #Text_2_hf {
+    position: absolute;
+    width: 445px;
+    height: 172px;
+    left: 830px;
+    top: 372px;
+    overflow: visible;
 
-        #Building_Brands_With_hh {
-            position: absolute;
-            left: 0px;
-            top: 0px;
-            overflow: visible;
-            width: 446px;
-            height: 92px;
-            line-height: 46px;
-            margin-top: -5px;
-            text-align: left;
-            font-family: Libre Franklin;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-            color: rgba(21, 21, 23, 1);
-        }
+    #Only_those_who_risk_hg {
+      position: absolute;
+      left: 0px;
+      top: 112px;
+      overflow: visible;
+      width: 446px;
+      height: 60px;
+      line-height: 30px;
+      margin-top: -6px;
+      text-align: left;
+      font-family: Libre Franklin;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      color: rgba(103, 103, 103, 1);
     }
 
-    #Text_1_hi {
-        position: absolute;
-        width: 445px;
-        height: 111px;
-        left: 498px;
-        top: 77px;
-        overflow: visible;
-
-        #Creating_Results {
-            position: absolute;
-            left: 0px;
-            top: 49px;
-            overflow: visible;
-            width: 446px;
-            height: 62px;
-            line-height: 62px;
-            margin-top: -7px;
-            text-align: center;
-            font-family: Libre Franklin;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 48px;
-            color: rgba(21, 21, 23, 1);
-        }
-
-        #portfolio {
-            position: absolute;
-            left: 150.5px;
-            top: 0px;
-            overflow: visible;
-            width: 147px;
-            white-space: nowrap;
-            line-height: 26px;
-            margin-top: -4px;
-            text-align: center;
-            font-family: Libre Franklin;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 18px;
-            color: rgba(255, 169, 0, 1);
-            letter-spacing: 2.7777777099609375px;
-        }
+    #Building_Brands_With_hh {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      overflow: visible;
+      width: 446px;
+      height: 92px;
+      line-height: 46px;
+      margin-top: -5px;
+      text-align: left;
+      font-family: Libre Franklin;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      color: rgba(21, 21, 23, 1);
     }
+  }
+
+  #Text_1_hi {
+    position: absolute;
+    width: 445px;
+    height: 111px;
+    left: 498px;
+    top: 77px;
+    overflow: visible;
+
+    #Creating_Results {
+      position: absolute;
+      left: 0px;
+      top: 49px;
+      overflow: visible;
+      width: 446px;
+      height: 62px;
+      line-height: 62px;
+      margin-top: -7px;
+      text-align: center;
+      font-family: Libre Franklin;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      color: rgba(21, 21, 23, 1);
+    }
+
+    #portfolio {
+      position: absolute;
+      left: 150.5px;
+      top: 0px;
+      overflow: visible;
+      width: 147px;
+      white-space: nowrap;
+      line-height: 26px;
+      margin-top: -4px;
+      text-align: center;
+      font-family: Libre Franklin;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      color: rgba(255, 169, 0, 1);
+      letter-spacing: 2.7777777099609375px;
+    }
+  }
 }
