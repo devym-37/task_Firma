@@ -162,7 +162,7 @@
     text-align: right;
     font-family: Libre Franklin;
     font-style: normal;
-    font-weight: bold;
+    font-weight: $semibold-weight;
     font-size: 24px;
     color: rgba(77, 102, 255, 1);
   }
@@ -204,7 +204,7 @@
       text-align: left;
       font-family: Libre Franklin;
       font-style: normal;
-      font-weight: bold;
+      font-weight: $semibold-weight;
       font-size: 48px;
       color: rgba(21, 21, 23, 1);
     }
@@ -253,7 +253,7 @@
       #_5 {
         position: absolute;
         left: 7px;
-        top: 0px;
+        top: 9px;
         overflow: visible;
         width: 18px;
         white-space: nowrap;

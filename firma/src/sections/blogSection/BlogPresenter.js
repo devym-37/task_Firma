@@ -165,12 +165,6 @@ const BlogPresenter = () => (
           <svg className="Mask_gv">
             <rect
               fill="rgba(255,255,255,1)"
-              stroke="rgba(232,232,232,1)"
-              stroke-width="2px"
-              stroke-linejoin="miter"
-              stroke-linecap="butt"
-              stroke-miterlimit="10"
-              shape-rendering="auto"
               id="Mask_gv"
               rx="25"
               ry="25"
@@ -185,6 +179,10 @@ const BlogPresenter = () => (
               fill="url(#Image_jt_pattern)"
               width="100%"
               height="100%"
+              rx="25"
+              ry="25"
+              x="0"
+              y="0"
             ></rect>
             <pattern
               elementId="Image_jt"
@@ -196,20 +194,9 @@ const BlogPresenter = () => (
             >
               <img
                 alt="blog"
-                x="0"
-                y="0"
-                width="100%"
-                height="100%"
+                id="blog"
                 src={require("../../images/blog/blog1.png")}
               />
-              {/* <image
-                  x="0"
-                  y="0"
-                  width="100%"
-                  height="100%"
-                  href="Image_jt_pattern.png"
-                  xlink:href="Image_jt_pattern.png"
-                ></image> */}
             </pattern>
           </div>
         </div>

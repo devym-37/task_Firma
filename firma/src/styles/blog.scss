@@ -1,3 +1,7 @@
+#blog {
+  height: 117%;
+}
+
 #Blog_01 {
   position: absolute;
   width: 1440px;
@@ -59,6 +63,7 @@
       overflow: visible;
 
       #Having_worked_across_f {
+        display: block;
         position: absolute;
         left: 0px;
         top: 57px;
@@ -76,6 +81,7 @@
       }
 
       #Here_s_What_Develope_ga {
+        display: block;
         position: absolute;
         left: 0px;
         top: 0px;
@@ -87,7 +93,7 @@
         text-align: left;
         font-family: Libre Franklin;
         font-style: normal;
-        font-weight: bold;
+        font-weight: $semibold-weight;
         font-size: 18px;
         color: rgba(21, 21, 23, 1);
       }
@@ -220,7 +226,7 @@
         text-align: left;
         font-family: Libre Franklin;
         font-style: normal;
-        font-weight: bold;
+        font-weight: $semibold-weight;
         font-size: 18px;
         color: rgba(21, 21, 23, 1);
       }
@@ -246,15 +252,15 @@
         filter: drop-shadow(0px 20px 50px rgba(103, 103, 103, 0.051));
         position: absolute;
         overflow: visible;
-        width: 500px;
-        height: 570px;
+        width: 595px;
+        height: 510px;
         left: 0px;
         top: 0px;
       }
       #Image_gt {
         position: absolute;
-        width: 350px;
-        height: 420px;
+        width: 445px;
+        height: 360px;
         left: 0px;
         top: 0px;
         overflow: visible;
@@ -268,7 +274,6 @@
       left: 290px;
       top: 360px;
       overflow: visible;
-
       .Background_gx {
         position: absolute;
         overflow: visible;
@@ -277,7 +282,6 @@
         left: 0px;
         top: 0px;
       }
-
       #icons_long_arrow_right_gy {
         position: absolute;
         width: 1px;
@@ -295,7 +299,6 @@
       left: 0px;
       top: 450px;
       overflow: visible;
-
       #Having_worked_across_g {
         position: absolute;
         left: 0px;
@@ -312,7 +315,6 @@
         font-size: 16px;
         color: rgba(103, 103, 103, 1);
       }
-
       #Why_Design_Systems_A_g {
         position: absolute;
         left: 0px;

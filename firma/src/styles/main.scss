@@ -1,17 +1,22 @@
-@import "./font.scss";
-@import "./landing.scss";
-@import "./footer.scss";
-@import "./commerce.scss";
-@import "./testimonial.scss";
-@import "./content.scss";
-@import "./blog.scss";
-@import "./team.scss";
-@import "./secondBlog.scss";
-@import "./portfolio.scss";
+@media (min-width: 0px) {
+  @import "./font.scss";
+  @import "./landing.scss";
+  @import "./footer.scss";
+  @import "./commerce.scss";
+  @import "./testimonial.scss";
+  @import "./content.scss";
+  @import "./blog.scss";
+  @import "./team.scss";
+  @import "./secondBlog.scss";
+  @import "./portfolio.scss";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border: none;
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+  }
+  pattern {
+    overflow: hidden;
+  }
 }
