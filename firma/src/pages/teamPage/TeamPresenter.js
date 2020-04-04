@@ -44,14 +44,17 @@ const TeamPresenter = () => (
               width="100%"
               height="100%"
             >
-              <img alt="avatar" src={require("../../images/team/Edward.svg")} />
+              <img
+                alt="avatar"
+                id="test"
+                src={require("../../images/team/Edward.svg")}
+              />
               {/* <image
                   x="0"
                   y="0"
                   width="100%"
                   height="100%"
-                  href="Image_jl_pattern.png"
-                  xlink:href="Image_jl_pattern.png"
+                  href={require("../../images/team/Edward.svg")}
                 ></image> */}
             </pattern>
           </div>
