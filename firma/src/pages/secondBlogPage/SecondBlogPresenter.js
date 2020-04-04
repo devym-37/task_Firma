@@ -52,7 +52,7 @@ const SecondBlogPresenter = () => (
               <img
                 alt="secondBlog"
                 id="secondBlog"
-                src={require("../../images/secondBlog/Image.svg")}
+                src={require("../../images/secondBlog/Image3.png")}
               />
               {/* <image x="0" y="0" width="100%" height="100%" href="Image_jh_pattern.png" xlink:href="Image_jh_pattern.png"></image> */}
             </pattern>
@@ -66,11 +66,11 @@ const SecondBlogPresenter = () => (
             <span>Beatriz Brito</span>
           </div>
           <div id="Avatars_Medium" className="Avatars_Medium">
-            <img
+            {/* <img
               alt="secondBlog"
               id="Image_bj"
               src={require("../../images/secondBlog/Image-3.svg")}
-            />
+            /> */}
           </div>
         </div>
         <div id="Text_bk">
@@ -115,7 +115,11 @@ const SecondBlogPresenter = () => (
               width="100%"
               height="100%"
             >
-              {/* <image x="0" y="0" width="100%" height="100%" href="Image_ji_pattern.png" xlink:href="Image_ji_pattern.png"></image> */}
+              <img
+                alt="secondBlog"
+                id="Image_bz"
+                src={require("../../images/secondBlog/Image-2.svg")}
+              />
             </pattern>
           </div>
         </div>
@@ -127,11 +131,11 @@ const SecondBlogPresenter = () => (
             <span>Bárbara Cotilla</span>
           </div>
           <div id="Avatars_Medium_by" className="Avatars_Medium">
-            <img
+            {/* <img
               alt="secondBlog"
               id="Image_bz"
               src={require("../../images/secondBlog/Image-2.svg")}
-            />
+            /> */}
           </div>
         </div>
         <div id="Text_b">
@@ -177,7 +181,11 @@ const SecondBlogPresenter = () => (
               width="100%"
               height="100%"
             >
-              {/* <image x="0" y="0" width="100%" height="100%" href="Image_jj_pattern.png" xlink:href="Image_jj_pattern.png"></image> */}
+              <img
+                alt="secondBlog"
+                id="Image_bz"
+                src={require("../../images/secondBlog/Image-1.svg")}
+              />
             </pattern>
           </div>
         </div>
@@ -232,7 +240,7 @@ const SecondBlogPresenter = () => (
             ></rect>
           </svg>
           <div id="Image_cm">
-            <rect
+            {/* <rect
               fill="url(#Image_jk_pattern)"
               width="100%"
               height="100%"
@@ -244,9 +252,13 @@ const SecondBlogPresenter = () => (
               y="0"
               width="100%"
               height="100%"
-            >
-              {/* <image x="0" y="0" width="100%" height="100%" href="Image_jk_pattern.png" xlink:href="Image_jk_pattern.png"></image> */}
-            </pattern>
+            > */}
+            <img
+              alt="secondBlog"
+              src={require("../../images/secondBlog/Image.png")}
+            />
+            {/* <image x="0" y="0" width="100%" height="100%" href="Image_jk_pattern.png" xlink:href="Image_jk_pattern.png"></image> */}
+            {/* </pattern> */}
           </div>
         </div>
         <div id="Info_cr">
