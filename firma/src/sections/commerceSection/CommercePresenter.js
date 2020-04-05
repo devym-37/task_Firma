@@ -1,6 +1,6 @@
 import React from "react";
 
-const CommercePresenter = () => (
+const CommercePresenter = ({ onClickAlert }) => (
   <>
     <div id="E_commerce_01">
       <svg class="Background_hm">
@@ -104,7 +104,11 @@ const CommercePresenter = () => (
               height="60"
             ></rect>
           </svg>
-          <div id="Get_Started_h">
+          <div
+            id="Get_Started_h"
+            style={{ cursor: "pointer" }}
+            onClick={(e) => onClickAlert(e.target.innerText)}
+          >
             <span>Add To Cart</span>
           </div>
         </div>

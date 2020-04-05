@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "component/Nav";
 
-const LandingPagePresenter = () => (
+const LandingPagePresenter = ({ onClickAlert }) => (
   <>
     <div id="Header_01">
       <svg className="Background_e">
@@ -102,7 +102,11 @@ const LandingPagePresenter = () => (
               height="60"
             ></rect>
           </svg>
-          <div id="Get_Started_fj">
+          <div
+            id="Get_Started_fj"
+            style={{ cursor: "pointer" }}
+            onClick={(e) => onClickAlert(e.target.innerText)}
+          >
             <span>Add To Cart</span>
           </div>
         </div>
@@ -118,7 +122,7 @@ const LandingPagePresenter = () => (
           <span>Men's Running Shoe</span>
         </div>
       </div>
-      <Nav />
+      <Nav onClickAlert={onClickAlert} />
     </div>
   </>
 );

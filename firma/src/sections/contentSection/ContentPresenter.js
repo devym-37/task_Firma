@@ -1,6 +1,6 @@
 import React from "react";
 
-const ContentPresenter = () => (
+const ContentPresenter = ({ onClickAlert }) => (
   <>
     <div id="Content_01">
       <svg className="Background_eg">
@@ -62,7 +62,11 @@ const ContentPresenter = () => (
               height="60"
             ></rect>
           </svg>
-          <div id="Get_Started">
+          <div
+            id="Get_Started"
+            style={{ cursor: "pointer" }}
+            onClick={(e) => onClickAlert(e.target.innerText)}
+          >
             <span>Get Started</span>
           </div>
         </div>

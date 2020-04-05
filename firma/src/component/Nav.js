@@ -1,8 +1,8 @@
 import React from "react";
 
-const Nav = () => (
+const Nav = ({ onClickAlert }) => (
   <div id="Nav_Bar">
-    <svg class="Background_fp">
+    <svg className="Background_fp">
       <rect
         fill="rgba(77,102,255,1)"
         id="Background_fp"
@@ -14,9 +14,12 @@ const Nav = () => (
         height="100"
       ></rect>
     </svg>
-    <div id="Buttons_Small_Color_2_Solid" class="Buttons_Small_Color_2_Solid">
+    <div
+      id="Buttons_Small_Color_2_Solid"
+      className="Buttons_Small_Color_2_Solid"
+    >
       <div id="Buttons_Small_Color_2_Solid_fr">
-        <svg class="Background_fs">
+        <svg className="Background_fs">
           <rect
             fill="rgba(255,169,0,1)"
             id="Background_fs"
@@ -28,27 +31,31 @@ const Nav = () => (
             height="50"
           ></rect>
         </svg>
-        <div id="Log_In">
+        <div
+          id="Log_In"
+          style={{ cursor: "pointer" }}
+          onClick={(e) => onClickAlert(e.target.innerText)}
+        >
           <span>Sign Up</span>
         </div>
       </div>
     </div>
     <div id="Log_In_fu">
-      <span>Log In</span>
+      <p>Log In</p>
     </div>
     <div id="Contact_fv">
-      <span>Contact</span>
+      <p>Contact</p>
     </div>
     <div id="Services">
-      <span>Services</span>
+      <p>Services</p>
     </div>
     <div id="Work">
-      <span>Work</span>
+      <p>Work</p>
     </div>
     <div id="Explore">
-      <span>Explore</span>
+      <p>Explore</p>
     </div>
-    <div id="kraft8_fz">
+    <div id="kraft8">
       <span>kraft8</span>
     </div>
   </div>

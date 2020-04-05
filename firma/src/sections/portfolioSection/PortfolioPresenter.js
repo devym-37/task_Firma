@@ -1,6 +1,6 @@
 import React from "react";
 
-const PortfolioPresenter = () => (
+const PortfolioPresenter = ({ onClickAlert }) => (
   <>
     <div id="Portfolio_01">
       <svg className="Background_g">
@@ -36,8 +36,6 @@ const PortfolioPresenter = () => (
           id="Image_1"
           src={require("../../images/portfolio/portfolio1.svg")}
         />
-        {/* <img id="Image_2" src="Image_2.png" srcset="Image_2.png 1x, Image_2@2x.png 2x"/>
-			<img id="Image_1" src="Image_1.png" srcset="Image_1.png 1x, Image_1@2x.png 2x"/> */}
       </div>
       <div
         id="Buttons_Large_Color_1_Solid_hb"
@@ -56,7 +54,11 @@ const PortfolioPresenter = () => (
               height="60"
             ></rect>
           </svg>
-          <div id="Get_Started_he">
+          <div
+            id="Get_Started_he"
+            style={{ cursor: "pointer" }}
+            onClick={(e) => onClickAlert(e.target.innerText)}
+          >
             <span>View Case Study</span>
           </div>
         </div>
