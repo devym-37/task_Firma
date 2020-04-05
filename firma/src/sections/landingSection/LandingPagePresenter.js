@@ -33,6 +33,7 @@ const LandingPagePresenter = ({ onClickAlert }) => (
         <img
           id="image_e"
           alt="add product"
+          className="productZoom"
           src={require("../../images/landing/addProduct.svg")}
         />
         <div id="icons_plus" className="icons_plus">
@@ -57,16 +58,19 @@ const LandingPagePresenter = ({ onClickAlert }) => (
         <img
           alt="product"
           id="Image_fb"
+          className="productZoom"
           src={require("../../images/landing/sideProduct1.svg")}
         />
         <img
           alt="product"
           id="Image_fc"
+          className="productZoom"
           src={require("../../images/landing/sideProduct2.svg")}
         />
         <img
           alt="product"
           id="image_fd"
+          className="productZoom"
           src={require("../../images/landing/sideProduct3.svg")}
         />
         <svg className="Background_fe">

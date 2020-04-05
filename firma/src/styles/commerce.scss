@@ -21,8 +21,18 @@
     height: 640px;
     left: 735px;
     top: 80px;
-    overflow: visible;
+    overflow: hidden;
 
+    #commerceZoom {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+    }
+    #commerceZoom:hover {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.5);
+    }
     .Mask_hr {
       position: absolute;
       overflow: visible;
@@ -38,7 +48,7 @@
       height: 640px;
       left: 0px;
       top: 0px;
-      overflow: visible;
+      overflow: hidden;
     }
   }
 

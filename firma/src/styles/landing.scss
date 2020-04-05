@@ -1,3 +1,13 @@
+.productZoom {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: transform 0.3s;
+  transition: transform 0.3s;
+}
+.productZoom:hover {
+  -webkit-transform: scale(1.8);
+  transform: scale(1.8);
+}
 #Header_01 {
   position: absolute;
   width: 1440px;
@@ -167,6 +177,11 @@
       left: -165px;
       top: -144px;
       overflow: visible;
+      transform-origin: 65% 75%;
+      transition: transform 0.5s, filter 0.5s ease-in;
+    }
+    #Image_ff:hover {
+      transform: scale(1.2);
     }
   }
 

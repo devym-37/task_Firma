@@ -40,6 +40,7 @@ const CommercePresenter = ({ onClickAlert }) => (
           >
             <img
               alt="product"
+              id="commerceZoom"
               src={require("../../images/commerce/product.svg")}
             />
           </pattern>
