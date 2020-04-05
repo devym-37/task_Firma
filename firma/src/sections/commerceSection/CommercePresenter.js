@@ -3,7 +3,7 @@ import React from "react";
 const CommercePresenter = ({ onClickAlert }) => (
   <>
     <div id="E_commerce_01">
-      <svg class="Background_hm">
+      <svg className="Background_hm">
         <rect
           fill="rgba(241,241,241,1)"
           id="Background_hm"
@@ -16,7 +16,7 @@ const CommercePresenter = ({ onClickAlert }) => (
         ></rect>
       </svg>
       <div id="Image_hn">
-        <svg class="Mask_hr">
+        <svg className="Mask_hr">
           <rect
             fill="rgba(255,255,255,1)"
             id="Mask_hr"
@@ -48,7 +48,7 @@ const CommercePresenter = ({ onClickAlert }) => (
       </div>
       <div id="Next_Product_hs">
         <div id="Image_ht">
-          <svg class="Mask_hx">
+          <svg className="Mask_hx">
             <rect
               fill="rgba(255,255,255,1)"
               id="Mask_hx"
@@ -90,10 +90,10 @@ const CommercePresenter = ({ onClickAlert }) => (
       </div>
       <div
         id="Buttons_Large_Color_1_Solid_h"
-        class="Buttons_Large_Color_1_Solid"
+        className="Buttons_Large_Color_1_Solid"
       >
         <div id="Buttons_Large_Color_1_Solid_ia">
-          <svg class="Background_h">
+          <svg className="Background_h">
             <rect
               fill="rgba(77,102,255,1)"
               id="Background_h"
@@ -129,7 +129,7 @@ const CommercePresenter = ({ onClickAlert }) => (
         </div>
       </div>
       <div id="Review">
-        <div id="Avatars_Small" class="Avatars_Small">
+        <div id="Avatars_Small" className="Avatars_Small">
           <img
             alt="avartar"
             id="Image_ia"
@@ -137,7 +137,7 @@ const CommercePresenter = ({ onClickAlert }) => (
           />
         </div>
         <div id="More">
-          <svg class="Background_ic">
+          <svg className="Background_ic">
             <ellipse
               fill="rgba(77,102,255,1)"
               id="Background_ic"

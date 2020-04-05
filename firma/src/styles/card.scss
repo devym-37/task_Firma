@@ -1,0 +1,64 @@
+$base-left: 380px;
+
+@for $i from 1 through 5 {
+  #Card-#{$i} {
+    position: absolute;
+    width: 350px;
+    height: 508px;
+    left: -380px + $i * $base-left;
+    top: 284px;
+    overflow: visible;
+
+    #cardImage {
+      position: absolute;
+      width: 350px;
+      height: 420px;
+      left: 0px;
+      top: 0px;
+      overflow: visible;
+    }
+
+    #Decs {
+      position: absolute;
+      width: 175px;
+      height: 63px;
+      left: 0px;
+      top: 445px;
+      overflow: visible;
+
+      #Job {
+        position: absolute;
+        left: 0px;
+        top: 44px;
+        overflow: visible;
+        width: 106px;
+        white-space: nowrap;
+        line-height: 28px;
+        margin-top: -6px;
+        text-align: left;
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: rgba(77, 102, 255, 1);
+      }
+
+      #Name {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+        width: 176px;
+        white-space: nowrap;
+        line-height: 32px;
+        margin-top: -4px;
+        text-align: left;
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        color: rgba(21, 21, 23, 1);
+      }
+    }
+  }
+}

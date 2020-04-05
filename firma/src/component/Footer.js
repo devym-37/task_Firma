@@ -6,7 +6,7 @@ const footer = () => (
       <div id="Copyright___2019_Kra">
         <span>Copyright © 2019 Kraft8. All Rights Reserved</span>
       </div>
-      <div id="Social_Icons_Style_2" class="Social_Icons_Style_2"></div>
+      <div id="Social_Icons_Style_2" className="Social_Icons_Style_2"></div>
       <div id="Link_List_3">
         <div id="FAQ">
           <span>FAQ</span>
