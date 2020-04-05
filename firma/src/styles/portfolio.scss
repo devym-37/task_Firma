@@ -37,13 +37,27 @@
       left: -200px;
       top: -100px;
       overflow: visible;
+      animation: zoomin 6s infinite;
     }
+
     #Image_1 {
       filter: drop-shadow(50px 50px 100px rgba(103, 103, 103, 0.102));
       position: absolute;
       left: 100px;
       top: 50px;
       overflow: visible;
+      animation: zoomin 5s infinite;
+    }
+    @keyframes zoomin {
+      0% {
+        transform: scale(1.4);
+      }
+      50% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(1.4);
+      }
     }
   }
 
