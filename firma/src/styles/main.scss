@@ -10,13 +10,24 @@
   @import "./secondBlog.scss";
   @import "./portfolio.scss";
 
+  // div {
+  //   display: block;
+  // }
+
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border: none;
   }
-  pattern {
+  #root {
+    position: absolute;
+    width: 1440px;
+    height: 7965px;
+    background-color: rgba(255, 255, 255, 1);
     overflow: hidden;
+  }
+  #root:hover {
+    overflow-y: scroll;
   }
 }
