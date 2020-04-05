@@ -407,7 +407,7 @@
       color: rgba(21, 21, 23, 1);
     }
 
-    #kraft8_fz {
+    #kraft8 {
       position: absolute;
       left: 0px;
       top: 9px;
@@ -421,5 +421,17 @@
       font-size: 22px;
       color: rgba(21, 21, 23, 1);
     }
+  }
+  p:hover {
+    position: absolute;
+    overflow: visible;
+    width: 42px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: $bold-weight;
+    font-size: 20px;
+    color: #74b9ff;
   }
 }
