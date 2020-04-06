@@ -1,24 +1,16 @@
 import React from "react";
-import Carousel from "react-bootstrap/Carousel";
-
-import "react-multi-carousel/lib/styles.css";
+import { Slide } from "react-slideshow-image";
 import Card from "../../component/Card";
 
-const responsive = {
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 3,
-    paritialVisibilityGutter: 60,
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 2,
-    paritialVisibilityGutter: 50,
-  },
-  mobile: {
-    breakpoint: { max: 464, min: 0 },
-    items: 1,
-    paritialVisibilityGutter: 30,
+const properties = {
+  duration: 5000,
+  transitionDuration: 800,
+  infinite: true,
+  indicators: true,
+  arrows: true,
+  pauseOnHover: true,
+  onChange: (oldIndex, newIndex) => {
+    console.log(`slide transition from ${oldIndex} to ${newIndex}`);
   },
 };
 
@@ -37,14 +29,20 @@ const TeamPresenter = ({ team }) => (
           height="954"
         ></rect>
       </svg>
-      {team.map((item, index) => (
-        <Card
-          imageUrl={`${item.imageUrl}`}
-          name={`${item.name}`}
-          job={`${item.job}`}
-          card={index}
-        />
-      ))}
+      <div className="teamSlide-container">
+        <Slide {...properties}>
+          {team.map((item, index) => (
+            <div className="teamEach-slide">
+              <Card
+                imageUrl={`${item.imageUrl}`}
+                name={`${item.name}`}
+                job={`${item.job}`}
+                card={index}
+              />
+            </div>
+          ))}
+        </Slide>
+      </div>
       <div id="Teamwork_Makes_The_D">
         <span>Teamwork Makes The Dream Work</span>
       </div>

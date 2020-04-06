@@ -5,8 +5,8 @@ $base-left: 380px;
     position: absolute;
     width: 350px;
     height: 508px;
-    left: -380px + $i * $base-left;
-    top: 284px;
+    // left: -380px + $i * $base-left;
+    // top: 284px;
     overflow: visible;
 
     #cardImage {

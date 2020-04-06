@@ -14,6 +14,24 @@
     left: 215px;
     top: 0px;
   }
+  .teamSlide-container {
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    left: 580px;
+    top: 300px;
+    overflow: hidden;
+    margin: auto;
+  }
+  .teamEach-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 510px;
+    width: 700px;
+    top: 412px;
+  }
 
   #Slider_Dots {
     transform: translate(0px, 0px) matrix(1, 0, 0, 1, 860, 874) rotate(-90deg);
