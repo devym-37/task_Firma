@@ -17,3 +17,4 @@
 1. Air Jordan 6 Retro + button 클릭시 redux count 저장
 2. 각 Section 별 이미지 애니메이션 설정
 
+![screensh](./task.jpg)
