@@ -3,6 +3,10 @@ import BlogPresenter from "./BlogPresenter";
 
 export default class extends React.Component {
   render() {
-    return <BlogPresenter />;
+    return (
+      <>
+        <BlogPresenter />
+      </>
+    );
   }
 }

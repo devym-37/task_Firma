@@ -35,24 +35,8 @@ const BlogPresenter = () => (
               width="100%"
               height="100%"
             ></rect>
-            <pattern
-              elementId="Image_jr"
-              id="Image_jr_pattern"
-              x="0"
-              y="0"
-              width="100%"
-              height="100%"
-            >
-              <img alt="blog" src={require("../../images/blog/blog3.svg")} />
-              {/* <image
-                  x="0"
-                  y="0"
-                  width="100%"
-                  height="100%"
-                  href="Image_jr_pattern.png"
-                  xlink:href="Image_jr_pattern.png"
-                ></image> */}
-            </pattern>
+
+            <img alt="blog" src={require("../../images/blog/blog3.svg")} />
           </div>
         </div>
         <div id="Text_f">
@@ -108,24 +92,8 @@ const BlogPresenter = () => (
               width="100%"
               height="100%"
             ></rect>
-            <pattern
-              elementId="Image_js"
-              id="Image_js_pattern"
-              x="0"
-              y="0"
-              width="100%"
-              height="100%"
-            >
-              <img alt="blog" src={require("../../images/blog/blog2.svg")} />
-              {/* <image
-                  x="0"
-                  y="0"
-                  width="100%"
-                  height="100%"
-                  href="Image_js_pattern.png"
-                  xlink:href="Image_js_pattern.png"
-                ></image> */}
-            </pattern>
+
+            <img alt="blog" src={require("../../images/blog/blog2.svg")} />
           </div>
         </div>
         <div id="Arrow_gk">
@@ -184,20 +152,12 @@ const BlogPresenter = () => (
               x="0"
               y="0"
             ></rect>
-            <pattern
-              elementId="Image_jt"
-              id="Image_jt_pattern"
-              x="0"
-              y="0"
-              width="100%"
-              height="100%"
-            >
-              <img
-                alt="blog"
-                id="blog"
-                src={require("../../images/blog/blog1.png")}
-              />
-            </pattern>
+
+            <img
+              alt="blog"
+              id="blog"
+              src={require("../../images/blog/blog1.png")}
+            />
           </div>
         </div>
         <div id="Arrow_gw">

@@ -1,6 +1,6 @@
 import React from "react";
 
-const SecondBlogPresenter = () => (
+const SecondBlogPresenter = ({ onClickUrl }) => (
   <>
     <div id="Blog_07">
       <svg className="Background_">
@@ -15,7 +15,12 @@ const SecondBlogPresenter = () => (
           height="1128"
         ></rect>
       </svg>
-      <div id="Post_4">
+      <div
+        id="Post_4"
+        className="postZoom"
+        style={{ cursor: "pointer" }}
+        onClick={() => onClickUrl()}
+      >
         <div id="Image">
           <svg className="Mask_be">
             <rect
@@ -41,19 +46,12 @@ const SecondBlogPresenter = () => (
               width="100%"
               height="100%"
             ></rect>
-            <pattern
-              id="Image_jh_pattern"
-              x="0"
-              y="0"
-              width="100%"
-              height="100%"
-            >
-              <img
-                alt="secondBlog"
-                id="secondBlog"
-                src={require("../../images/secondBlog/secondBlog4.png")}
-              />
-            </pattern>
+
+            <img
+              alt="secondBlog"
+              id="secondBlog"
+              src={require("../../images/secondBlog/secondBlog4.png")}
+            />
           </div>
         </div>
         <div id="Info">
@@ -84,7 +82,12 @@ const SecondBlogPresenter = () => (
           </div>
         </div>
       </div>
-      <div id="Post_3">
+      <div
+        id="Post_3"
+        className="postZoom"
+        style={{ cursor: "pointer" }}
+        onClick={() => onClickUrl()}
+      >
         <div id="Image_bo">
           <svg className="Mask_bu">
             <rect
@@ -148,7 +151,12 @@ const SecondBlogPresenter = () => (
           </div>
         </div>
       </div>
-      <div id="Post_2">
+      <div
+        id="Post_2"
+        className="postZoom"
+        style={{ cursor: "pointer" }}
+        onClick={() => onClickUrl()}
+      >
         <div id="Image_b">
           <svg className="Mask_ca">
             <rect
@@ -212,7 +220,12 @@ const SecondBlogPresenter = () => (
           </div>
         </div>
       </div>
-      <div id="Post_1">
+      <div
+        id="Post_1"
+        className="postZoom"
+        style={{ cursor: "pointer" }}
+        onClick={() => onClickUrl()}
+      >
         <div id="Image_ck">
           <svg className="Mask_cq">
             <rect

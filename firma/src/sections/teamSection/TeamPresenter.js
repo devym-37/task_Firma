@@ -37,7 +37,6 @@ const TeamPresenter = ({ team }) => (
           height="954"
         ></rect>
       </svg>
-
       {team.map((item, index) => (
         <Card
           imageUrl={`${item.imageUrl}`}

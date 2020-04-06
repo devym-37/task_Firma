@@ -21,6 +21,16 @@
     left: 0px;
     top: 0px;
   }
+  .postZoom {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: transform 0.3s;
+    transition: transform 0.3s;
+  }
+  .postZoom:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 
   #Post_4 {
     position: absolute;

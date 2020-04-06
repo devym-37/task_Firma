@@ -1,0 +1,81 @@
+$base-left: 475px;
+
+@for $i from 1 through 4 {
+  #Review-#{$i} {
+    position: absolute;
+    width: 445px;
+    height: 308px;
+    // left: -475px + $i * $base-left;
+    // top: 412px;
+    overflow: hidden;
+    display: flex;
+
+    .reviewBackground {
+      filter: drop-shadow(0px 20px 50px rgba(103, 103, 103, 0.051));
+      position: absolute;
+      overflow: visible;
+      width: 595px;
+      height: 458px;
+      left: 0px;
+      top: 0px;
+    }
+
+    #review_job {
+      position: absolute;
+      left: 30px;
+      top: 241px;
+      overflow: visible;
+      width: 164px;
+      white-space: nowrap;
+      line-height: 24px;
+      margin-top: -5px;
+      text-align: left;
+      font-family: Libre Franklin;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      color: rgba(103, 103, 103, 1);
+    }
+
+    #review_name {
+      position: absolute;
+      left: 30px;
+      top: 217px;
+      overflow: visible;
+      width: 47px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: Libre Franklin;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      color: rgba(21, 21, 23, 1);
+    }
+
+    #review_decs {
+      position: absolute;
+      left: 30px;
+      top: 110px;
+      overflow: visible;
+      width: 386px;
+      height: 90px;
+      line-height: 30px;
+      margin-top: -6px;
+      text-align: left;
+      font-family: Libre Franklin;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      color: rgba(21, 21, 23, 1);
+    }
+
+    #avartar {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      left: 30px;
+      top: 40px;
+      overflow: visible;
+    }
+  }
+}
