@@ -9,9 +9,9 @@ const properties = {
   indicators: true,
   arrows: true,
   pauseOnHover: true,
-  onChange: (oldIndex, newIndex) => {
-    console.log(`slide transition from ${oldIndex} to ${newIndex}`);
-  },
+  // onChange: (oldIndex, newIndex) => {
+  //   console.log(`slide transition from ${oldIndex} to ${newIndex}`);
+  // },
 };
 
 const TestimonialPresenter = ({ reviews }) => (
@@ -32,7 +32,7 @@ const TestimonialPresenter = ({ reviews }) => (
       <div className="slide-container">
         <Slide {...properties}>
           {reviews.map((review, index) => (
-            <div className="each-slide">
+            <div className="each-slide" key={index}>
               <TestimonialCard
                 imageUrl={`${review.imageUrl}`}
                 text={`${review.text}`}

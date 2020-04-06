@@ -41,12 +41,6 @@ const SecondBlogPresenter = ({ onClickUrl }) => (
             ></rect>
           </svg>
           <div id="Image_ba">
-            <rect
-              fill="url(#Image_jh_pattern)"
-              width="100%"
-              height="100%"
-            ></rect>
-
             <img
               alt="secondBlog"
               id="secondBlog"
@@ -102,24 +96,11 @@ const SecondBlogPresenter = ({ onClickUrl }) => (
             ></rect>
           </svg>
           <div id="Image_bq">
-            <rect
-              fill="url(#Image_ji_pattern)"
-              width="100%"
-              height="100%"
-            ></rect>
-            <pattern
-              id="Image_ji_pattern"
-              x="0"
-              y="0"
-              width="100%"
-              height="100%"
-            >
-              <img
-                alt="secondBlog"
-                id="Image_bz"
-                src={require("../../images/secondBlog/secondBlog3.svg")}
-              />
-            </pattern>
+            <img
+              alt="secondBlog"
+              id="Image_bz"
+              src={require("../../images/secondBlog/secondBlog3.svg")}
+            />
           </div>
         </div>
         <div id="Info_bv">
@@ -171,24 +152,11 @@ const SecondBlogPresenter = ({ onClickUrl }) => (
             ></rect>
           </svg>
           <div id="Image_ca">
-            <rect
-              fill="url(#Image_jj_pattern)"
-              width="100%"
-              height="100%"
-            ></rect>
-            <pattern
-              id="Image_jj_pattern"
-              x="0"
-              y="0"
-              width="100%"
-              height="100%"
-            >
-              <img
-                alt="secondBlog"
-                id="Image_bz"
-                src={require("../../images/secondBlog/secondBlog2.svg")}
-              />
-            </pattern>
+            <img
+              alt="secondBlog"
+              id="Image_bz"
+              src={require("../../images/secondBlog/secondBlog2.svg")}
+            />
           </div>
         </div>
         <div id="Info_cb">
@@ -246,24 +214,11 @@ const SecondBlogPresenter = ({ onClickUrl }) => (
             ></rect>
           </svg>
           <div id="Image_cm">
-            <rect
-              fill="url(#Image_jk_pattern)"
-              width="100%"
-              height="100%"
-            ></rect>
-            <pattern
-              id="Image_jk_pattern"
-              x="0"
-              y="0"
-              width="100%"
-              height="100%"
-            >
-              <img
-                alt="secondBlog"
-                id="secondBlog"
-                src={require("../../images/secondBlog/secondBlog1.png")}
-              />
-            </pattern>
+            <img
+              alt="secondBlog"
+              id="secondBlog"
+              src={require("../../images/secondBlog/secondBlog1.png")}
+            />
           </div>
         </div>
         <div id="Info_cr">

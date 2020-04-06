@@ -30,12 +30,6 @@ const BlogPresenter = () => (
             ></rect>
           </svg>
           <div id="Image_ga">
-            <rect
-              fill="url(#Image_jr_pattern)"
-              width="100%"
-              height="100%"
-            ></rect>
-
             <img alt="blog" src={require("../../images/blog/blog3.svg")} />
           </div>
         </div>
@@ -87,12 +81,6 @@ const BlogPresenter = () => (
             ></rect>
           </svg>
           <div id="Image_gh">
-            <rect
-              fill="url(#Image_js_pattern)"
-              width="100%"
-              height="100%"
-            ></rect>
-
             <img alt="blog" src={require("../../images/blog/blog2.svg")} />
           </div>
         </div>
@@ -143,16 +131,6 @@ const BlogPresenter = () => (
             ></rect>
           </svg>
           <div id="Image_gt">
-            <rect
-              fill="url(#Image_jt_pattern)"
-              width="100%"
-              height="100%"
-              rx="25"
-              ry="25"
-              x="0"
-              y="0"
-            ></rect>
-
             <img
               alt="blog"
               id="blog"

@@ -15,6 +15,25 @@
     top: 0px;
   }
 
+  .slide-container {
+    position: absolute;
+    width: 700px;
+    height: 450px;
+    left: 580px;
+    top: 412px;
+    overflow: hidden;
+    margin: auto;
+  }
+  .each-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 280px;
+    width: 700px;
+    top: 412px;
+  }
+
   #Slider_Arrows_jd {
     position: absolute;
     width: 1px;

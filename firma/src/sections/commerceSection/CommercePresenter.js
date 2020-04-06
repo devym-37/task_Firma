@@ -29,21 +29,11 @@ const CommercePresenter = ({ onClickAlert }) => (
           ></rect>
         </svg>
         <div id="Image_hp">
-          <rect fill="url(#Image_ju_pattern)" width="100%" height="100%"></rect>
-          <pattern
-            elementId="Image_ju"
-            id="Image_ju_pattern"
-            x="0"
-            y="0"
-            width="100%"
-            height="100%"
-          >
-            <img
-              alt="product"
-              id="commerceZoom"
-              src={require("../../images/commerce/product.svg")}
-            />
-          </pattern>
+          <img
+            alt="product"
+            id="commerceZoom"
+            src={require("../../images/commerce/product.svg")}
+          />
         </div>
       </div>
       <div id="Next_Product_hs">
@@ -61,24 +51,10 @@ const CommercePresenter = ({ onClickAlert }) => (
             ></rect>
           </svg>
           <div id="Image_hv">
-            <rect
-              fill="url(#Image_jv_pattern)"
-              width="100%"
-              height="100%"
-            ></rect>
-            <pattern
-              elementId="Image_jv"
-              id="Image_jv_pattern"
-              x="0"
-              y="0"
-              width="100%"
-              height="100%"
-            >
-              <img
-                alt="nextProduct"
-                src={require("../../images/commerce/nextProduct.svg")}
-              />
-            </pattern>
+            <img
+              alt="nextProduct"
+              src={require("../../images/commerce/nextProduct.svg")}
+            />
           </div>
         </div>
         <div id="_1595">

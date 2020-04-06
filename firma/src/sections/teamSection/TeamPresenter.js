@@ -9,9 +9,9 @@ const properties = {
   indicators: true,
   arrows: true,
   pauseOnHover: true,
-  onChange: (oldIndex, newIndex) => {
-    console.log(`slide transition from ${oldIndex} to ${newIndex}`);
-  },
+  // onChange: (oldIndex, newIndex) => {
+  //   console.log(`slide transition from ${oldIndex} to ${newIndex}`);
+  // },
 };
 
 const TeamPresenter = ({ team }) => (
@@ -32,7 +32,7 @@ const TeamPresenter = ({ team }) => (
       <div className="teamSlide-container">
         <Slide {...properties}>
           {team.map((item, index) => (
-            <div className="teamEach-slide">
+            <div className="teamEach-slide" key={index}>
               <Card
                 imageUrl={`${item.imageUrl}`}
                 name={`${item.name}`}

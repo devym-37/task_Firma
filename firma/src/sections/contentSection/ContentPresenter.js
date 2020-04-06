@@ -29,20 +29,10 @@ const ContentPresenter = ({ onClickAlert }) => (
           ></rect>
         </svg>
         <div id="Image_ej">
-          <rect fill="url(#Image_jq_pattern)" width="100%" height="100%"></rect>
-          <pattern
-            elementId="Image_jq"
-            id="Image_jq_pattern"
-            x="0"
-            y="0"
-            width="100%"
-            height="100%"
-          >
-            <img
-              alt="content"
-              src={require("../../images/content/content.svg")}
-            />
-          </pattern>
+          <img
+            alt="content"
+            src={require("../../images/content/content.svg")}
+          />
         </div>
       </div>
       <div
